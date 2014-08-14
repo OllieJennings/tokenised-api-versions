@@ -4,7 +4,8 @@
   "description": "tokenised-api-versions ======================",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seed.js"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,17 @@
   },
   "homepage": "https://github.com/OllieJennings/tokenised-api-versions",
   "dependencies": {
+    "async": "^0.9.0",
     "body-parser": "^1.6.3",
     "debug": "^1.0.4",
     "ejs": "^1.0.0",
     "express": "^4.8.3",
     "mongoose": "^3.8.14",
     "morgan": "^1.2.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-util": "^3.0.0"
   }
 }
