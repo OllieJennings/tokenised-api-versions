@@ -1,0 +1,27 @@
+{
+  "name": "tokenised-api-versions",
+  "version": "1.0.0",
+  "description": "tokenised-api-versions ======================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OllieJennings/tokenised-api-versions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OllieJennings/tokenised-api-versions/issues"
+  },
+  "homepage": "https://github.com/OllieJennings/tokenised-api-versions",
+  "dependencies": {
+    "body-parser": "^1.6.3",
+    "debug": "^1.0.4",
+    "ejs": "^1.0.0",
+    "express": "^4.8.3",
+    "mongoose": "^3.8.14",
+    "morgan": "^1.2.2"
+  }
+}
